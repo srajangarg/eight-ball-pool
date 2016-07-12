@@ -1,0 +1,93 @@
+\documentclass{beamer}
+
+\mode<presentation> {
+
+\usetheme{Madrid}
+
+}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{verbatim}
+
+
+\title[CS 251 Report]{Eight Ball Pool : Group 01}
+
+\institute[IIT Bombay]
+
+\date{\today}
+
+
+\newenvironment<>{varblock}[2][.9\textwidth]{
+  \setlength{\textwidth}{#1}
+  \begin{actionenv}#3
+    \def\insertblocktitle{#2}
+    \par
+    \usebeamertemplate{block begin}}
+  {\par
+    \usebeamertemplate{block end}
+  \end{actionenv}}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\begin{table}
+\begin{tabular}{c c c}
+Srajan & Rishabh & Anuj \\
+srajan.garg@gmail & rishabhagarwal467@gmail & anujmittal0801@gmail \\
+140050017 & 140050019 & 140050024 \\
+\end{tabular}
+\end{table}
+\end{frame}
+
+
+\section{Introduction}
+\begin{frame}
+\frametitle{Introduction}
+
+Our project deals with implementing the famous eight ball pool game using C++. We have used a physics simulation engine called Box2D for this purpose. It is a simplified version of the complete game including features like fouls and a complete two player game.\\
+\pause
+\vspace{0.4cm}
+Our hostel has a well maintained pool table with most of the required equipments to play. We often end up playing pool after having our lunch/dinner. We knew the game was all about physics, and as we were supposed to make a project based on a physics simulation engine, we thought why not implement pool?
+
+\end{frame}
+
+\section{The technical side!}
+\begin{frame}
+\frametitle{The technical side!}
+
+The game we have made, builds on the existing Box2D physics engine. We have understood how a large code base is managed and changed. We have learnt how a huge company is built from the scratch. We are happy with how the game functions. It is a fully functional two player game.
+
+\end{frame}
+
+\section{Challenges faced!}
+\begin{frame}
+\frametitle{Challenges faced!}
+
+We faced many problems in this project. Mainly, due the load from other courses in our semester, we were not able to spend a uniform time on this project. It was always abrupt binges of spending time on it (like spending all nighters).\\
+\vspace{0.4cm}
+Apart from this, we were not able to easily understand how the contact listener worked. After a while, we got it working. We needed it for pocketing the balls. Also, our project was stagnant till we had implemented the cue stick (and it revolving around the cue ball).Implementation 
+of the foul mechanism was also not very easy. 
+
+\end{frame}
+
+\section{Effort}
+\begin{frame}
+\frametitle{Effort}
+
+We put in a lot of effort for this project, however the effort was not uniformly distributed across time. Each teammate spend about 45 hours on the project.
+
+\end{frame}
+
+\section{Thanks \& Acknowledgments}
+\begin{frame}
+\frametitle{Thanks \& Acknowledgments}
+
+We would like to thank Prof. Sharat Chandran, and out jTA Aakash for guiding and assisting us. We would also like to thank the people who worked on the Box2D library, and helped us make this project.\\
+\vspace{0.4cm}
+Without the above assistance this project could not have been possible.
+
+\end{frame}
+
+\end{document}
